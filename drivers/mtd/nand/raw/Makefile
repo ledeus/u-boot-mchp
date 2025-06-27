@@ -61,7 +61,6 @@ obj-$(CONFIG_NAND_KMETER1) += kmeter1_nand.o
 obj-$(CONFIG_NAND_LPC32XX_MLC) += lpc32xx_nand_mlc.o
 obj-$(CONFIG_NAND_LPC32XX_SLC) += lpc32xx_nand_slc.o
 obj-$(CONFIG_NAND_VF610_NFC) += vf610_nfc.o
-obj-$(CONFIG_NAND_MESON) += meson_nand.o
 obj-$(CONFIG_NAND_MXC) += mxc_nand.o
 obj-$(CONFIG_NAND_MXS) += mxs_nand.o
 obj-$(CONFIG_NAND_MXS_DT) += mxs_nand_dt.o
@@ -71,7 +70,6 @@ obj-$(CONFIG_NAND_PXA3XX) += pxa3xx_nand.o
 obj-$(CONFIG_TEGRA_NAND) += tegra_nand.o
 obj-$(CONFIG_NAND_OMAP_GPMC) += omap_gpmc.o
 obj-$(CONFIG_NAND_OMAP_ELM) += omap_elm.o
-obj-$(CONFIG_NAND_SANDBOX) += sand_nand.o
 obj-$(CONFIG_NAND_SUNXI) += sunxi_nand.o
 obj-$(CONFIG_NAND_MXIC) += mxic_nand.o
 obj-$(CONFIG_NAND_ZYNQ) += zynq_nand.o
@@ -79,6 +77,7 @@ obj-$(CONFIG_NAND_STM32_FMC2) += stm32_fmc2_nand.o
 obj-$(CONFIG_CORTINA_NAND) += cortina_nand.o
 obj-$(CONFIG_ROCKCHIP_NAND) += rockchip_nfc.o
 obj-$(CONFIG_NAND_MT7621) += mt7621_nand.o
+obj-$(CONFIG_NAND_SCAI) += scai_nand.o
 
 else  # minimal SPL drivers
 
